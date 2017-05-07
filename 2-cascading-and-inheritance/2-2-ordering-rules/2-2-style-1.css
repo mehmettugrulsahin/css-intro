@@ -1,0 +1,23 @@
+@import url("2-2-style-2.css");
+
+p {
+  background-color: green;
+}
+
+/*
+ browser choses the last one it sees
+ between the rules coming from the same source
+ (dafault / user agent / author style sheets)
+ so that's why grey is applied to paragraph and not green
+
+ this applies to the order of the link tags in the
+ document in the case that the style rules are
+ coming from different css files. Styles in the last one
+ overrides the previous one
+
+ ordering behaaviour is the last style rule wins
+*/
+
+p {
+  background-color: grey;
+}
