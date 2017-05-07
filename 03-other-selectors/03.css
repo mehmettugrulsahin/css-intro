@@ -1,0 +1,18 @@
+/*descendant selector*/
+div p {
+  background-color: #ddddaa;
+}
+
+/*child selector*/
+div > span {
+  background-color: #ffddaa;
+}
+
+/*attribute selector*/
+img[alt=spacer] {
+  background-color: #aaffaa;
+}
+
+a:visited {
+  color: #dddddd;
+}
